@@ -56,7 +56,7 @@ function digaOi (): void {
 }
 digaOi ()
 
-function multiplicacao (numA: num, numB:num): number {
+function multiplicacao (numA: any, numB:any): number {
     return numA * numB
 }
 console.log (multiplicacao(23,9))
