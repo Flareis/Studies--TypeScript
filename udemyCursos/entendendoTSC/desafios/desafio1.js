@@ -36,7 +36,7 @@ function falha(msg) {
 }
 const produto = {
     nome: 'Sabão',
-    preco: -10,
+    preco: 10,
     validarProduto() {
         if (!this.nome || this.nome.trim().length == 0) {
             falha('Precisa ter nome.');
@@ -48,3 +48,4 @@ const produto = {
 };
 produto.validarProduto();
 // Null
+//# sourceMappingURL=desafio1.js.map

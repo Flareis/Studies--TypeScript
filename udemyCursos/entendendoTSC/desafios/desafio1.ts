@@ -48,7 +48,7 @@ function falha(msg: string) : never {
 }
 const produto = {
     nome: 'Sabão',
-    preco: -10,
+    preco: 10,
     validarProduto() {
         if (!this.nome || this.nome.trim().length == 0) {
             falha('Precisa ter nome.')
