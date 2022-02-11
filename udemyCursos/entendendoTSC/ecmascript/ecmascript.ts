@@ -107,21 +107,21 @@ console.log (`cidade`)
 esperar3s()
 */
 
- function esperar3sPromise () {
+ /* function esperar4sPromise () {
     return new Promise((resolve: any) =>{
         setTimeout (() => {
-            resolve('3 segundo depois...')
-        }, 3000)
+            resolve('4 segundo depois...')
+        }, 4000)
     })
 }
 
-esperar3sPromise()
-    .then(dado => console.log(dado))
+esperar4sPromise()
+    .then(dado => console.log(dado)) */
 
-fetch('https://swapi.dev/api/people/1')
+/* fetch('https://swapi.dev/api/people/1')
     .then (res => res.json())
     .then (personagem => personagem.filme)
     .then (films => fetch(films[0]))
     .then (resFilm => resFilm.json())
     .then (filme => console.log(filme.title))
-    .catch(error => console.log("Cath!!!" + error))
+    .catch(error => console.log("Cath!!!" + error)) */
