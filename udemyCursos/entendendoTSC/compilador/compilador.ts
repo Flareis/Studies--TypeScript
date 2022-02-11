@@ -26,3 +26,5 @@ function saudar (isManha : boolean, /*horas: number*/): string {
     return saudacao
 }
 console.log (saudar(true))
+
+

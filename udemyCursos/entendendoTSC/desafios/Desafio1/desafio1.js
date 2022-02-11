@@ -2,7 +2,7 @@
 //Objeto Funcionário
 let funcionario = {
     nome: 'Flávia',
-    matricula: 43092,
+    matricula: 86014,
     supervisor: 'Tiago',
     baterPonto: (horario) => {
         if (horario <= 8) {
@@ -28,7 +28,7 @@ console.log(funcionario.baterPonto(7.5));
 //Union Types
 let nota;
 nota = 10;
-nota = "dez";
+nota = "mil";
 console.log(`Minha nota é ${nota}!`);
 //Tipo Never - nunca retorna, loop infinito, ou termina com erro
 function falha(msg) {

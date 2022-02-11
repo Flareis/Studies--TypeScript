@@ -1,7 +1,7 @@
 //Objeto Funcionário
 let funcionario: Funcionario = {
     nome: 'Flávia',
-    matricula: 43092,
+    matricula: 86014,
     supervisor: 'Tiago',
     baterPonto: (horario: number): string => {
         if (horario <= 8)
@@ -39,7 +39,7 @@ type Funcionario = {
 //Union Types
 let nota : number | string
 nota = 10
-nota = "dez"
+nota = "mil"
 console.log(`Minha nota é ${nota}!`)
 
 //Tipo Never - nunca retorna, loop infinito, ou termina com erro
