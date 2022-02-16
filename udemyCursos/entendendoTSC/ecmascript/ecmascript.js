@@ -42,7 +42,7 @@ falarCom("Tiago");
     .bind ({ nome: 'Ana', idade: 32, cidade: "SP"})
 thisEspecial () */
 // o this de uma função arrow está no mesmo contexto que a função foi escrita
-const arrowComThis = () => console.log(this);
+const arrowComThis = () => console.log();
 arrowComThis();
 //Destructuring Array
 const graduacao = ['administracao', 5];

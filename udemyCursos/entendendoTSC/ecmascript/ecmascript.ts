@@ -54,7 +54,7 @@ falarCom ("Tiago")
 thisEspecial () */
 
 // o this de uma função arrow está no mesmo contexto que a função foi escrita
-const arrowComThis = () => console.log(this)
+const arrowComThis = () => console.log ()
 arrowComThis ()
 
 //Destructuring Array
