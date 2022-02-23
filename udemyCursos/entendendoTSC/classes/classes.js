@@ -62,7 +62,7 @@ console.log(produto1.resumo());
 const produto2 = new produtos("chocolate", 7.89, 0.05);
 console.log(produto2.resumo());
 //Getters and Setters
-class pessoa {
+class pessoa0 {
     constructor() {
         this._idade = 0;
     }
@@ -75,7 +75,7 @@ class pessoa {
         }
     }
 }
-const pessoa1 = new pessoa;
+const pessoa1 = new pessoa0;
 pessoa1.idade = 10;
 console.log(pessoa1);
 pessoa1.idade = -3;

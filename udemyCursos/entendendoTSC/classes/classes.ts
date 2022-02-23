@@ -71,7 +71,7 @@ console.log (produto2.resumo())
 
 //Getters and Setters
 
-class pessoa {
+class pessoa0 {
     private _idade: number = 0
 
     get idade(): number {
@@ -85,7 +85,7 @@ class pessoa {
     }
 }
 
-const pessoa1 = new pessoa
+const pessoa1 = new pessoa0
 pessoa1.idade = 10
 console.log(pessoa1)
 
