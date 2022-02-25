@@ -32,4 +32,37 @@ myClient.nome = "Tiago";
 saudarComOla(myClient);
 myClient.saudar('Eduardo');
 console.log(myClient.ultimaCompra);
+class RealA {
+    a() { }
+}
+class RealAB {
+    a() { }
+    b() { }
+}
+class RealABC {
+    a() { }
+    b() { }
+    c() { }
+}
+class AbstractABD {
+    a() { }
+    b() { }
+}
+Object.prototype.log = function () {
+    console.log(this.toString());
+};
+const x = 2;
+const y = 3;
+const z = 4;
+x.log();
+y.log();
+z.log();
+//Serve para todo o restante
+const cli = {
+    nome: 'April',
+    toString() {
+        return this.nome;
+    }
+};
+cli.log();
 //# sourceMappingURL=interfaces.js.map
